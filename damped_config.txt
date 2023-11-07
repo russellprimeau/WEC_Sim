@@ -1,0 +1,33 @@
+[wave_sim_parameters]
+
+area = 0.1
+height = 0.2
+rho = 1028
+g = 9.81
+m_a = 10
+m_b = 1
+k_spring = 2000
+eq_len = .14
+c_damper = 200
+v_damper = 5
+
+wave_steps = 1500
+t_start = 0.0
+period = 10.0
+dt = 0.01
+max_len = 1
+
+min_k = 500
+max_k = 10000
+min_damp = .01
+max_damp = 300
+min_m_a = 1
+max_m_a = 100
+min_m_b = .01
+max_m_b = 50
+x_range = 100
+
+wave_plot_name = Awaveplot.png
+record_name = Acompleted.csv
+summary_name = Asummary.txt
+wec_plot_name = Asimplot.png
